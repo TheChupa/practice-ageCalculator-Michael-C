@@ -10,7 +10,7 @@ public class Main {
         System.out.print("Please enter your age:");
         int age = scanner.nextInt();
         int timeLeft = (100 - age);
-        System.out.print("You have " + timeLeft +" years left until you are 100!");
-
+        System.out.println("You have " + timeLeft +" years left until you are 100!");
+        scanner.close();
     }
 }
